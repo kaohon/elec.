@@ -6,3 +6,11 @@ body {
     line-height: 1.6;
     color: #000;
 }
+
+.l1-disabled {
+    color: gray;
+}
+
+.l1-enabled {
+    color: yellow;
+}
