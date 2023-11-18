@@ -6,3 +6,102 @@ body {
     line-height: 1.6;
     color: #000;
 }
+
+header {
+    margin-top: 150px;
+    height: 200px;
+    text-align: center;
+    font-size: 72px;
+    border-bottom: solid 2px #000;
+} #header-menu {
+    position: absolute;
+    top: 0px;
+    height: 50px;
+    width: 100%;
+    background-color: #000;
+    z-index: 1;
+} #menu-button {
+    position: absolute;
+    top: -40px;
+    left: 10px;
+} #menu {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 10px;
+    width: 300px;
+    height: 100%;
+    font-size: 24px;
+    background-color: #000;
+    border-radius: 20px;
+    z-index: 0;
+    animation: menu_open 0.60s ease 0s 1 normal forwards;
+}
+
+@keyframes menu_open {
+    0% {
+        transform: translatex(-350px);
+    } 100% {
+        transform: translatex(0px);
+    }
+}
+
+@keyframes menu_open2 {
+    0% {
+        transform: translatex(-2350px);
+    } 100% {
+        transform: translatex(0px);
+    }
+}
+
+#notice-button {
+    position: absolute;
+    top: -40px;
+    right: 10px;
+} #notice {
+    display: none;
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    width: 80%;
+    height: 100%;
+    font-size: 24px;
+    background-color: #000;
+    border-radius: 20px;
+    z-index: 0;
+    animation: menu_open2 0.60s ease 0s 1 normal forwards;
+}
+
+.modes {
+    position: absolute;
+    margin-top: 100px;
+    height: 40%;
+    width: 30%;
+    border: solid 2px #000;
+    border-radius: 35px;
+} .modes span {
+    position: absolute;
+    white-space: nowrap;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+} .modes:hover {
+    height: 42.5%;
+    width: 32.5%;
+} #creative-mode {
+    left: 200px;
+    font-size: 56px;
+} #quest-mode {
+    right: 200px;
+    font-size: 56px;
+}
+
+footer {
+    position: absolute;
+    bottom: -200px;
+    width: 100%;
+    height: 180px;
+    text-align: center;
+    font-size: 28px;
+    border-top: solid 2px #000;
+}
