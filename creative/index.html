@@ -20,28 +20,31 @@
     <span id="left-sidebar">
         <br>導線
         <br><img class="items" src="img/スイッチ.png">
-        <p>スイッチ</p>
+        <p>スイッチ s1<input name="s1" type="radio" class="switch"> s2<input name="s2" type="radio" class="switch"> s3<input name="s3" type="radio" class="switch"> s4<input name="s4" type="radio" class="switch"></p>
         <img class="items" src="img/直流電源.png">
-        <p>電源(直流)</p>
+        <p>電源(直流) s1<input name="s1" type="radio" class="dc"> s2<input name="s2" type="radio" class="dc"> s3<input name="s3" type="radio" class="dc"> s4<input name="s4" type="radio" class="dc"></p>
         <br>電源(交流)
         <br><img class="items" src="img/電球.png">
-        <p>電球</p>
+        <p>電球 s1<input name="s1" type="radio"> s2<input name="s2" type="radio"> s3<input name="s3" type="radio"> s4<input name="s4" type="radio"></p>
         <img class="items" src="img/電流計.png">
-        <p>電流計</p>
+        <p>電流計 s1<input name="s1" type="radio"> s2<input name="s2" type="radio"> s3<input name="s3" type="radio"> s4<input name="s4" type="radio"></p>
         <img class="items" src="img/電圧計.png">
-        <p>電圧計</p>
+        <p>電圧計 s1<input name="s1" type="radio"> s2<input name="s2" type="radio"> s3<input name="s3" type="radio"> s4<input name="s4" type="radio"></p>
         <img class="items" src="img/抵抗器.png">
-        <p>抵抗器</p>
+        <p>抵抗器 s1<input name="s1" type="radio"> s2<input name="s2" type="radio"> s3<input name="s3" type="radio"> s4<input name="s4" type="radio"></p>
+        <span id="output"></span>
     </span>
     <span id="center">
         <span id="circuit"></span>
-        <span class="slot" id="slot-1"></span>
-        <span class="slot" id="slot-2"></span>
-        <span class="slot" id="slot-3"></span>
-        <span class="slot" id="slot-4"></span>
+        <span class="slot" id="slot-1"><span class="slot-name">s1</span>+</span>
+        <span class="slot" id="slot-2"><span class="slot-name">s2</span>+</span>
+        <span class="slot" id="slot-3"><span class="slot-name">s3</span>+</span>
+        <span class="slot" id="slot-4"><span class="slot-name">s4</span>+</span>
     </span>
     <span id="right-sidebar">
-
+        エラー
+        ・放電先が必要です
+        ・電源が必須です
     </span>
 
 <!-- library -->
